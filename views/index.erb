@@ -1,0 +1,11 @@
+<h2><em>Here are all the pizza orders
+   <% @all_pizzas.each do |pizza| %>
+      <div class="order-list">
+        <p>Name: <a href="/pizzas/ <%= pizza.id %>"><%= pizza.pretty_name %></a></p>
+        <hr>
+      </div>
+   <% end %>
+ </em>
+</h2>
+
+<a class="button" href="/pizzas/new">Create Order</a>
