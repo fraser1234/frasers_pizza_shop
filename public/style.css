@@ -1,3 +1,25 @@
+
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  text-align: center;
+
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+.field-group{
+  text-align: center;
+
+}
 .button {background-color: pink; /* Green */
     border: none;
     color: white;
